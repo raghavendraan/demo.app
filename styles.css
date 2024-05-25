@@ -1,0 +1,135 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+.site-header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.site-header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Navigation styles */
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a.active,
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #ffc107;
+}
+
+/* About section styles */
+.about {
+    background: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Upcoming events styles */
+.upcoming-events {
+    background: white;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .main-nav li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .main-nav a {
+        display: block;
+    }
+
+    .hero {
+        padding: 1rem;
+    }
+}

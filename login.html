@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | New Year Celebration</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <nav class="site-nav">
+            <a href="index.html" class="logo-link">
+                <img src="event-logo.png" alt="Event Logo" class="event-logo">
+            </a>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="login.html" class="active">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="login-container">
+        <section class="login-section">
+            <h1>Login to Your Account</h1>
+            <form class="login-form" action="submit-login.php" method="post">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn login-btn">Log In</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 New Year's Eve. All rights reserved.</p>
+    </footer>
+</body>
+</html>

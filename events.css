@@ -1,0 +1,71 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.site-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.site-navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.site-navigation li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.site-navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.event-introduction, .event-information, .registration-cta {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #28a745;
+}
+
+.btn-secondary {
+    background-color: #17a2b8;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
